@@ -1,0 +1,94 @@
+# Data files and directories
+data/
+*.csv
+*.parquet
+*.pkl
+*.pickle
+
+# Specific data JSON files (but allow config JSONs)
+*_data.json
+*_results.json
+*_output.json
+mcc_mapping.json
+mcc_codes.json
+
+# Dataset files
+dataset_description.txt
+
+# Cursor IDE files
+.cursor/
+.cursorignore
+
+# Python cache
+__pycache__/
+*.py[cod]
+*$py.class
+*.so
+.Python
+build/
+develop-eggs/
+dist/
+downloads/
+eggs/
+.eggs/
+lib/
+lib64/
+parts/
+sdist/
+var/
+wheels/
+pip-wheel-metadata/
+share/python-wheels/
+*.egg-info/
+.installed.cfg
+*.egg
+
+# Virtual environments
+venv/
+env/
+ENV/
+env.bak/
+venv.bak/
+
+# Jupyter Notebook checkpoints
+.ipynb_checkpoints
+
+# PyCharm
+.idea/
+
+# VS Code
+.vscode/
+
+# MacOS
+.DS_Store
+.AppleDouble
+.LSOverride
+
+# Windows
+Thumbs.db
+ehthumbs.db
+Desktop.ini
+
+# Model outputs and logs
+lightning_logs/
+catboost_info/
+*.log
+*.out
+
+# Large model files
+*.h5
+*.hdf5
+*.model
+*.bin
+
+# Temporary files
+tmp/
+temp/
+*.tmp
+*.temp
+
+# Results and output files
+results/
+outputs/
+*_results.json
+*_output.json 
